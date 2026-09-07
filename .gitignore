@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Data
+data/
+!data/.gitkeep
+
+# Trained models / generated artifacts
+models/
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor junk
+.DS_Store
+.vscode/
